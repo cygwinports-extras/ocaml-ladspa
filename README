@@ -1,0 +1,65 @@
+ocaml-ladspa
+------------------------------------------
+This package contains an O'Caml interface for LADSPA audio plugins.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  ladspa-sdk
+  ladspa-*
+  ocaml-3.10.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gcc-core-3.4.4-3
+  make-3.81-2
+  ocaml-findlib-1.2.2-1
+
+Canonical website:
+  http://savonet.sourceforge.net/wiki/OCamlLibs
+
+Canonical download:
+  http://downloads.sourceforge.net/savnoet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-ladspa-0.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-ladspa-0.1.1-X.cygport all
+
+This will create:
+  /usr/src/ocaml-ladspa-0.1.1-X-src.tar.bz2
+  /usr/src/ocaml-ladspa-0.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/ladspa/META
+  /usr/lib/ocaml/3.10/ladspa/ladspa.a
+  /usr/lib/ocaml/3.10/ladspa/ladspa.cma
+  /usr/lib/ocaml/3.10/ladspa/ladspa.cmi
+  /usr/lib/ocaml/3.10/ladspa/ladspa.cmx
+  /usr/lib/ocaml/3.10/ladspa/ladspa.cmxa
+  /usr/lib/ocaml/3.10/ladspa/ladspa.mli
+  /usr/lib/ocaml/3.10/ladspa/libladspa_stubs.a
+  /usr/lib/ocaml/3.10/stublibs/dllladspa_stubs.so
+  /usr/lib/ocaml/3.10/stublibs/dllladspa_stubs.so.owner
+  /usr/share/doc/ocaml-ladspa-0.1.1/COPYING
+  /usr/share/doc/ocaml-ladspa-0.1.1/Changes
+  /usr/share/doc/ocaml-ladspa-0.1.1/README
+
+------------------
+
+Port Notes:
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
