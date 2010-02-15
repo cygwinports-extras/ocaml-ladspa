@@ -1,4 +1,4 @@
 category: Audio OCaml
-requires: ladspa-sdk ocaml
+requires: ladspa-sdk libgcc1 ocaml
 sdesc: "OCaml LADSPA bindings"
 ldesc: "This package contains an O'Caml interface for LADSPA audio plugins."
