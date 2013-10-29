@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-ladspa"
 VERSION=0.1.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml LADSPA bindings"
 DESCRIPTION="This package contains an OCaml interface for LADSPA audio plugins."
